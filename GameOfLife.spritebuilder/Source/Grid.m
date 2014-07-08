@@ -73,6 +73,8 @@ static const int GRID_COLUMNS = 10;
     
     //invert it's state - kill it if it's alive, bring it to life if it's dead.
     creature.isAlive = !creature.isAlive;
+    
+    _totalAlive += creature.isAlive ? 1 : 0;
 }
 
 - (Creature *)creatureForTouchPosition:(CGPoint)touchPosition
@@ -80,8 +82,6 @@ static const int GRID_COLUMNS = 10;
     //get the row and column that was touched, return the Creature inside the corresponding cell
     int row = touchPosition.y / _cellHeight;
     int column = touchPosition.x / _cellWidth;
-    
-    _totalAlive++;
     
     return _gridArray[row][column];
 }
@@ -164,6 +164,7 @@ static const int GRID_COLUMNS = 10;
             // access the creature in the cell that corresponds to the current row/column
             Creature *currentCreature = _gridArray[i][j];
             
+            // the rules set out in the tutorial did not seem to match the wikipedia entry: http://en.wikipedia.org/wiki/Conway's_Game_of_Life#Rules
             if (!currentCreature.isAlive && currentCreature.livingNeighbors == 3) {
                 currentCreature.isAlive = YES;
             }
