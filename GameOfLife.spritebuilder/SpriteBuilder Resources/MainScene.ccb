@@ -405,6 +405,19 @@
 											</dict>
 											<dict>
 												<key>name</key>
+												<string>color</string>
+												<key>type</key>
+												<string>Color3</string>
+												<key>value</key>
+												<array>
+													<real>0.0</real>
+													<real>0.34509804844856262</real>
+													<real>0.13333334028720856</real>
+													<real>1</real>
+												</array>
+											</dict>
+											<dict>
+												<key>name</key>
 												<string>dimensions</string>
 												<key>type</key>
 												<string>Size</string>
@@ -613,6 +626,19 @@
 											</dict>
 											<dict>
 												<key>name</key>
+												<string>color</string>
+												<key>type</key>
+												<string>Color3</string>
+												<key>value</key>
+												<array>
+													<real>0.0</real>
+													<real>0.34509804844856262</real>
+													<real>0.13333334028720856</real>
+													<real>1</real>
+												</array>
+											</dict>
+											<dict>
+												<key>name</key>
 												<string>dimensions</string>
 												<key>type</key>
 												<string>Size</string>
@@ -817,6 +843,19 @@
 												<string>Check</string>
 												<key>value</key>
 												<false/>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>color</string>
+												<key>type</key>
+												<string>Color3</string>
+												<key>value</key>
+												<array>
+													<real>0.0</real>
+													<real>0.34509804844856262</real>
+													<real>0.13333334028720856</real>
+													<real>1</real>
+												</array>
 											</dict>
 											<dict>
 												<key>name</key>
@@ -1033,6 +1072,19 @@
 												<string>Check</string>
 												<key>value</key>
 												<false/>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>color</string>
+												<key>type</key>
+												<string>Color3</string>
+												<key>value</key>
+												<array>
+													<real>0.0</real>
+													<real>0.34509804844856262</real>
+													<real>0.13333334028720856</real>
+													<real>1</real>
+												</array>
 											</dict>
 											<dict>
 												<key>name</key>
@@ -1548,8 +1600,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
